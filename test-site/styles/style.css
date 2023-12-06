@@ -1,0 +1,62 @@
+html {
+    background-color: #343434;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif; /* calls the Rubik family from the google api to be used through the entire site */
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px 50px 50px;
+    border: 20px black;
+}
+
+p,
+h1,
+ul,
+h2 {
+    color: cyan;
+}
+
+p {
+    font-size: 22px;
+}
+
+#hermano {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px black;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px black;
+    text-align: center;
+    font-size: 30px;
+}
+
+a:hover {
+    color:magenta;
+}
+
+a:visited {
+    color:chocolate;
+}
+
+img {
+    margin: auto;
+    display: block; /* previous two lines center the image */
+    width: 700px;
+}
+
+button {
+    margin: auto;
+    display: block;
+}
